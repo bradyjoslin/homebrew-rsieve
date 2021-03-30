@@ -9,6 +9,6 @@ class Rsieve < Formula
     version "0.0.1"
   
     def install
-      bin.install "dist/rsieve"
+      bin.install ["dist/*"]
     end
   end
