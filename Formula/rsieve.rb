@@ -4,9 +4,9 @@
 class Rsieve < Formula
     desc "Copies all or portions of a remote GitHub repo. Useful for pulling down template projects or reusable bits of code."
     homepage "https://github.com/bradyjoslin/rsieve"
-    url "https://github.com/bradyjoslin/rsieve/releases/download/v0.0.5/rsieve-v0.0.5-x86_64-apple-darwin.tar.gz"
-    sha256 "4d0c0d2efc0000107893c27bad093b52c597f97a867b3097b64795daebde166e"
-    version "0.0.5"
+    url "https://github.com/bradyjoslin/rsieve/releases/download/v0.0.6/rsieve-v0.0.6-x86_64-apple-darwin.tar.gz"
+    sha256 "b1eaeefa522959baae8787abc0578f3d773c8c172deeed809d896cd35c5d5702"
+    version "0.0.6"
   
     def install
       bin.install "rsieve"
